@@ -6,6 +6,6 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<flow name="blueoceanFlow" doc:id="614c420d-e359-46e7-8349-3c2fa028462e" >
 		<http:listener doc:name="Listener" doc:id="524df245-6e10-4b93-bad2-d105ebc2cd4f" config-ref="HTTP_Listener_config" path="/ocean"/>
-		<set-payload value="hello Ocean" doc:name="Set Payload" doc:id="c655071a-cfe3-4c5d-89d3-c4bdcd34e03f" />
+		<set-payload value="hello Ocean" doc:name="Ocean" doc:id="c655071a-cfe3-4c5d-89d3-c4bdcd34e03f" />
 	</flow>
 </mule>
