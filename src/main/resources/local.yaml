@@ -13,4 +13,4 @@ cloudhub:
   app: "blueOcean_sh"
   worker: "Micro"
   workers: "1"
-  region: "us-west-1"
+  region: "us-east-2"
