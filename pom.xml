@@ -28,10 +28,14 @@
 			</plugin>
 			<plugin>
 
+				
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>3.7.1</version>
+				<configuration>
+				<extensions>true</extensions>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
+				<version>3.7.1</version>
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
@@ -46,7 +50,7 @@
 						<workerType>${cloudhub.worker}</workerType>
 						<region>${cloudhub.region}</region>
 						<workers>${cloudhub.workers}</workers>
-						
+
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
@@ -82,6 +86,8 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
+
+
 	</repositories>
 
 	<pluginRepositories>
