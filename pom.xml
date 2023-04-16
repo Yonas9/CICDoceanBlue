@@ -50,19 +50,7 @@
 
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
-					<additionalPluginDependencies>
-						<plugin>
-							<groupId>${connectorGroupID}</groupId>
-							<artifactId>${connectorArtifactID}</artifactId>
-							<additionalDependencies>
-								<dependency>
-									<groupId>${dependencyGroupID}</groupId>
-									<artifactId>${dependencyArtifactID}</artifactId>
-									<version>${dependencyVersion}</version>
-								</dependency>
-							</additionalDependencies>
-						</plugin>
-					</additionalPluginDependencies>
+					
 				</configuration>
 			</plugin>
 		</plugins>
