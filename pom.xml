@@ -28,14 +28,11 @@
 			</plugin>
 			<plugin>
 
-				
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.7.1</version>
-				<configuration>
-				<extensions>true</extensions>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>3.7.1</version>
+				<extensions>true</extensions>
+
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
