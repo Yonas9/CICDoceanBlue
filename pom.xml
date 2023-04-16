@@ -30,7 +30,7 @@
 
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.7.1</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
@@ -44,6 +44,9 @@
 						<applicationName>${cloudhub.app}</applicationName>
 						<businessGroup>${cloudhub.bg}</businessGroup>
 						<workerType>${cloudhub.worker}</workerType>
+						<region>${cloudhub.region}</region>
+						<workers>${cloudhub.workers}</workers>
+						
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
