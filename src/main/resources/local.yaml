@@ -12,7 +12,7 @@ anypoint:
   
 cloudhub:
   enviroment: "Sandbox"
-  app: "blueOcean_sh"
+  app: "blueOcean"
   worker: "Micro"
   workers: 1
   region: "us-east-2"
